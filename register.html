@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+    <h1 class="head" style="text-align: center;color: rgb(58, 58, 183);background-image: ;">facebook </h1>
+    <center>
+    <fieldset style=" background-color: white;" class="head">
+        <legend style="text-align: center;">Register</legend>
+        <form>
+            <label for="Username">Username :</label>
+            <input type="text" id="Username" name="Username" placeholder="Name" required><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br><br>
+
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" placeholder="password" pattern=".{6,}"
+                required><br><br>
+
+            <label for="radio">Gender:
+                <input type="radio" id="male" name="radio">
+                <label for="male">Male </label>
+
+                <input type="radio" id="female" name="radio">
+                <label for="female">Female </label>
+
+                <input type="radio" id="others" name="radio">
+                <label for="others">Others </label>
+            </label><br><br>
+
+
+            <p>Country: <select></p>
+            <option value="Country">Country</option>
+            <option value="INDIA">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="CANADA">Canada</option>
+            </select><br><br>
+
+            <label>Skills:
+                <input type="checkbox" id="Java" name="Java">
+                <label for="Java">Java:</label>
+
+                <input type="checkbox" id="HTML" name="HTML">
+                <label for="HTML">HTML:</label>
+
+                <input type="checkbox" id="SQL" name="SQL">
+                <label for="SQL">SQL:</label>
+
+                <input type="checkbox" id="SPRING" name="SPRING">
+                <label for="SPRING">SPRING:</label>
+
+                <input type="checkbox" id="TESTING" name="TESTING">
+                <label for="TESTING">TESTING:</label>
+            </label><br><br>
+
+            <input type="submit" value="Register">
+            <p>had an account?</p><a href="https://www.facebook.com/login.php/">login</a>
+            <!-- <label> for =</form></label> -->
+
+
+        </form>
+        </fieldset>
+        </center>
+</body>
+
+</html>
