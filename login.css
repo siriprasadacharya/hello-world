@@ -1,0 +1,21 @@
+.login-box{
+    position: absolute;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-box form{
+    width: 100%;
+    padding: 0% 50px;
+}
+h1{
+    font-size: 2cm;
+    color: aquamarine;
+    text-align:center ;
+}
+.input.box{
+    position: relative;
+    margin: 25px 0;
+}
