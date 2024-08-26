@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(rain.jpeg)
+}
+h1{
+    
+        font-family: "Matemasie", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+
+      
+}
+nav{
+    background-image:url('rain.jpeg') ;
+    background-repeat: no-repeat;
+    padding: 100%;
+    margin: auto;
+}
