@@ -19,3 +19,10 @@ h1{
     position: relative;
     margin: 25px 0;
 }
+.login{
+    
+    background-image:url('');
+    width: fit-content;
+    height: fit-content;
+    background-repeat: no-repeat;
+}
